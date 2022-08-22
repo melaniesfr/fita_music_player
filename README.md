@@ -17,7 +17,9 @@ A simple music player app that lets you search by artist  and displays the searc
 
 ## List of Libraries/Dependencies and Its Functionalities
 audioplayers 0.20.1 version's
+
 => A Flutter plugin to play audio files.
+
 Functionalities:
 - Play/pause/resume audio files.
 - Stream of changes on audio duration.
@@ -29,6 +31,7 @@ Functionalities:
 From the command line:
 1. Enter `cd fita_music_player`.
 2. Run `flutter build appbundle`.
+
 The release bundle is created at `fita_music_player/build/app/outputs/bundle/release/app.aab`.
 
 ### Build an APK
@@ -36,10 +39,12 @@ From the command line:
 1. Enter `cd fita_music_player`.
 2. Run `flutter build apk --split-per-abi`.
    - (The flutter build command defaults to `--release`)
+
 This command results in three APK files:
 - `fita_music_player/build/app/outputs/apk/release/app-armeabi-v7a-release.apk`
 - `fita_music_player/build/app/outputs/apk/release/app-arm64-v8a-release.apk`
 - `fita_music_player/build/app/outputs/apk/release/app-x86_64-release.apk`
+
 Removing the `--split-per-abi` flag results in a fat APK that contains code compiled for *all* the target ABIs. Such APKs are larger in size than their split counterparts, causing the user to download native binaries that are not applicable to their device’s architecture.
 
 ### Install an APK on a Device
