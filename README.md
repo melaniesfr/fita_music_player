@@ -70,7 +70,7 @@ From the command line:
 
 ### Ready Apps
 But, I have prepared the app that is ready to install on your android device. You can directly install the application located in the folder:
-> fita_music_player/build/app/outputs/apk/release/app-release.apk
+> fita_music_player/app-release.apk
 
 ## Design
 ![image.png](assets/image.png)
